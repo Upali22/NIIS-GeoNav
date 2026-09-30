@@ -1,0 +1,6 @@
+{
+  "name": "NIIS GeoNav",
+  "description": "Intelligent 3D Digital Campus Navigation Platform for NIIS Campus Bhubaneswar. Your Campus. Your Route. Your Way.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

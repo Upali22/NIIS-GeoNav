@@ -1,0 +1,1502 @@
+{
+  "buildings": [
+    {
+      "id": "main-gate",
+      "name": "Main Gate",
+      "code": "GATE-01",
+      "category": "gate",
+      "description": "Primary campus entrance on Badaraghunathpur Road with 24/7 security checkpoint and visitor registration.",
+      "position": [
+        -42,
+        0,
+        18
+      ],
+      "size": [
+        6,
+        4,
+        2
+      ],
+      "height": 4.5,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Security Cabin",
+        "Visitor Registration",
+        "Drop-off Zone",
+        "CCTV Surveillance"
+      ],
+      "accessibility": true,
+      "openingHours": "24 Hours",
+      "status": "active",
+      "details": {
+        "architecturalStyle": "Modern Gateway with Arch Columns",
+        "groundArea": "120 sq.m"
+      }
+    },
+    {
+      "id": "parking",
+      "name": "Parking (Bus & Car)",
+      "code": "PARK-01",
+      "category": "parking",
+      "description": "Spacious dedicated campus parking lot for institutional buses, two-wheelers, faculty vehicles, and visitor parking.",
+      "position": [
+        -34,
+        0,
+        -4
+      ],
+      "size": [
+        14,
+        0.4,
+        18
+      ],
+      "height": 1,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Bus Terminal",
+        "Two Wheeler Shed",
+        "EV Charging Point",
+        "Security Patrol"
+      ],
+      "accessibility": true,
+      "openingHours": "6:00 AM - 10:00 PM",
+      "status": "active"
+    },
+    {
+      "id": "sai-temple",
+      "name": "Sai Temple of NIIS",
+      "code": "TEMPLE-01",
+      "category": "religious",
+      "description": "Sacred serene temple dedicated to Shirdi Sai Baba, featuring classical Kalinga architectural shikhara, peaceful prayer hall, and lush floral courtyard.",
+      "position": [
+        -20,
+        0,
+        -18
+      ],
+      "size": [
+        10,
+        8,
+        10
+      ],
+      "height": 9,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Prayer Hall",
+        "Meditation Garden",
+        "Prasad Counter",
+        "Shoe Stand"
+      ],
+      "accessibility": true,
+      "openingHours": "5:30 AM - 9:00 PM",
+      "status": "active",
+      "details": {
+        "architecturalStyle": "Odisha Kalinga Temple with Golden Shikhara",
+        "builtYear": "2012",
+        "groundArea": "350 sq.m"
+      }
+    },
+    {
+      "id": "block-a",
+      "name": "Block A (Main Administrative & Academic)",
+      "code": "BLK-A",
+      "category": "academic",
+      "description": "Flagship 5-story academic & administrative headquarters of NIIS. Features grand classical arched balconies, central atrium, Director's Office, MCA/MBA departments, and modern computer labs.",
+      "position": [
+        -6,
+        0,
+        0
+      ],
+      "size": [
+        24,
+        14,
+        16
+      ],
+      "height": 15,
+      "floors": 5,
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Central Administration",
+        "Director & Principal Office",
+        "Air-Conditioned Computer Labs",
+        "Seminar Hall",
+        "Smart Classrooms",
+        "Wi-Fi Hub",
+        "Elevator Access"
+      ],
+      "departments": [
+        "Administration",
+        "MCA",
+        "MBA",
+        "BBA",
+        "Computer Science"
+      ],
+      "accessibility": true,
+      "openingHours": "8:00 AM - 7:00 PM",
+      "status": "active",
+      "details": {
+        "architecturalStyle": "Grand Odishan Neo-Classical with Corner Chhatris",
+        "builtYear": "2008",
+        "groundArea": "1400 sq.m"
+      },
+      "rooms": [
+        {
+          "id": "a-101",
+          "roomNumber": "A-101",
+          "floor": 1,
+          "name": "Main Reception & Admissions",
+          "department": "Administration",
+          "capacity": 40,
+          "facilities": [
+            "Air Conditioning",
+            "Helpdesk",
+            "Visitor Lounge"
+          ]
+        },
+        {
+          "id": "a-102",
+          "roomNumber": "A-102",
+          "floor": 1,
+          "name": "Principal & Director Office",
+          "department": "Leadership",
+          "capacity": 20,
+          "facilities": [
+            "Executive Boardroom",
+            "Video Conferencing"
+          ]
+        },
+        {
+          "id": "a-201",
+          "roomNumber": "A-201",
+          "floor": 2,
+          "name": "Advanced Computer Lab 1",
+          "department": "MCA / IT",
+          "capacity": 65,
+          "facilities": [
+            "High-Speed Workstations",
+            "Gigabit LAN",
+            "Smart Screen"
+          ]
+        },
+        {
+          "id": "a-301",
+          "roomNumber": "A-301",
+          "floor": 3,
+          "name": "Management Lecture Hall 1",
+          "department": "MBA",
+          "capacity": 80,
+          "facilities": [
+            "Tiered Seating",
+            "Dual Projectors",
+            "Surround Audio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open-park",
+      "name": "Open Park & Front Lawn",
+      "code": "PARK-MAIN",
+      "category": "sports",
+      "description": "Beautifully landscaped green garden in front of Block A with manicured lawns, royal palm trees, sitting benches, and ceremonial path.",
+      "position": [
+        -7,
+        0,
+        16
+      ],
+      "size": [
+        20,
+        0.2,
+        12
+      ],
+      "height": 0.5,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Floral Walkways",
+        "Shaded Gazebos",
+        "Evening Lighting",
+        "Seating Benches"
+      ],
+      "accessibility": true,
+      "openingHours": "5:00 AM - 10:00 PM",
+      "status": "active"
+    },
+    {
+      "id": "block-b",
+      "name": "Block B (Academic Wing)",
+      "code": "BLK-B",
+      "category": "academic",
+      "description": "Dynamic academic wing housing undergraduate computing, BCA, Information Technology lecture halls, faculty lounges, and tutorial rooms.",
+      "position": [
+        -1,
+        0,
+        29
+      ],
+      "size": [
+        18,
+        10,
+        10
+      ],
+      "height": 11,
+      "floors": 4,
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "BCA Classrooms",
+        "Hardware & Networking Lab",
+        "Faculty Cubicles",
+        "Tutorial Rooms",
+        "Water Dispensers"
+      ],
+      "departments": [
+        "BCA",
+        "Information Technology",
+        "Applied Sciences"
+      ],
+      "accessibility": true,
+      "openingHours": "8:00 AM - 6:00 PM",
+      "status": "active",
+      "rooms": [
+        {
+          "id": "b-101",
+          "roomNumber": "B-101",
+          "floor": 1,
+          "name": "BCA Foundation Hall",
+          "department": "BCA",
+          "capacity": 70,
+          "facilities": [
+            "Interactive Smart Board",
+            "Wi-Fi"
+          ]
+        },
+        {
+          "id": "b-204",
+          "roomNumber": "B-204",
+          "floor": 2,
+          "name": "Software Engineering Studio",
+          "department": "BCA",
+          "capacity": 60,
+          "facilities": [
+            "Projector",
+            "Smart Board",
+            "Gigabit Wi-Fi"
+          ]
+        },
+        {
+          "id": "b-302",
+          "roomNumber": "B-302",
+          "floor": 3,
+          "name": "Data Structures Lab",
+          "department": "BCA",
+          "capacity": 55,
+          "facilities": [
+            "Linux Terminals",
+            "Smart Screen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-washroom",
+      "name": "Common Washroom & Restrooms",
+      "code": "AMN-WR",
+      "category": "amenity",
+      "description": "Hygienic modern campus restroom complex with touchless fixtures, accessible ramp, and dedicated maintenance staff.",
+      "position": [
+        11,
+        0,
+        31
+      ],
+      "size": [
+        6,
+        3.5,
+        5
+      ],
+      "height": 3.5,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Male & Female Restrooms",
+        "Accessible Toilet",
+        "Hand Sanitizer Stations",
+        "Water Cooler"
+      ],
+      "accessibility": true,
+      "openingHours": "6:00 AM - 10:00 PM",
+      "status": "active"
+    },
+    {
+      "id": "hostel-1",
+      "name": "Hostel 1 — Arnapurna",
+      "code": "HST-01",
+      "category": "hostel",
+      "description": "Comfortable residential hall for female students featuring secure biometric entry, spacious ventilated rooms, study desks, and dedicated warden quarters.",
+      "position": [
+        21,
+        0,
+        31
+      ],
+      "size": [
+        14,
+        11,
+        9
+      ],
+      "height": 12,
+      "floors": 4,
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Biometric Access Control",
+        "24/7 Security & Female Warden",
+        "Common Study Hall",
+        "High-Speed Wi-Fi",
+        "Solar Hot Water",
+        "Laundry Area"
+      ],
+      "accessibility": true,
+      "openingHours": "Hostel Hours: 6:00 AM - 8:30 PM (In-time)",
+      "status": "active"
+    },
+    {
+      "id": "hostel-2",
+      "name": "Hostel 2 — Subhadra",
+      "code": "HST-02",
+      "category": "hostel",
+      "description": "Modern women's residence block named after Goddess Subhadra, with recreation room, indoor games, and balcony views.",
+      "position": [
+        37,
+        0,
+        30
+      ],
+      "size": [
+        15,
+        11,
+        9
+      ],
+      "height": 12,
+      "floors": 4,
+      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Recreation Room",
+        "Badminton Court Court",
+        "Reading Room",
+        "Filtered RO Water",
+        "Wi-Fi"
+      ],
+      "accessibility": true,
+      "openingHours": "Hostel Hours: 6:00 AM - 8:30 PM",
+      "status": "active"
+    },
+    {
+      "id": "nescafe",
+      "name": "Nescafe (Campus Cafe)",
+      "code": "CAFE-01",
+      "category": "dining",
+      "description": "Vibrant student hangout spot serving hot beverages, cold coffee, iced tea, fresh sandwiches, and quick snacks with open patio seating.",
+      "position": [
+        49,
+        0,
+        27
+      ],
+      "size": [
+        7,
+        4,
+        6
+      ],
+      "height": 4,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Coffee & Tea Bar",
+        "Shaded Outdoor Seating",
+        "Snacks & Bakery",
+        "Digital Payment"
+      ],
+      "accessibility": true,
+      "openingHours": "8:30 AM - 9:30 PM",
+      "status": "active"
+    },
+    {
+      "id": "niis-canteen",
+      "name": "NIIS Canteen & Mess",
+      "code": "CANTEEN-01",
+      "category": "dining",
+      "description": "Spacious hygienic food court providing nutritious home-style Odia thalis, South Indian breakfast, Chinese, and fresh juices for 400+ diners.",
+      "position": [
+        61,
+        0,
+        25
+      ],
+      "size": [
+        16,
+        7,
+        13
+      ],
+      "height": 7,
+      "floors": 2,
+      "image": "https://images.unsplash.com/photo-1567521464027-f127ff144326?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "400+ Seating Capacity",
+        "Vegetarian & Non-Veg Counters",
+        "Student Dining Mess",
+        "RO Drinking Water",
+        "Clean Wash Area"
+      ],
+      "accessibility": true,
+      "openingHours": "7:30 AM - 10:00 PM",
+      "status": "active"
+    },
+    {
+      "id": "block-c",
+      "name": "Block C (Computer Science & Library)",
+      "code": "BLK-C",
+      "category": "academic",
+      "description": "Contemporary 3-story technology center featuring the Central Digital Library, AI Research Lab, Cloud Computing Center, and Department of Computer Science & Engineering.",
+      "position": [
+        46,
+        0,
+        4
+      ],
+      "size": [
+        20,
+        10,
+        14
+      ],
+      "height": 11,
+      "floors": 3,
+      "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Central Digital Library",
+        "AI & Machine Learning Lab",
+        "Cloud Computing Center",
+        "Faculty Research Suites",
+        "High-Speed Fiber Optic LAN",
+        "12 Smart Classrooms",
+        "4 Advanced Labs"
+      ],
+      "departments": [
+        "BCA",
+        "B.Sc Computer Science",
+        "Data Science",
+        "Library Sciences"
+      ],
+      "accessibility": true,
+      "openingHours": "8:00 AM - 8:00 PM (Library until 9:00 PM)",
+      "status": "active",
+      "details": {
+        "architecturalStyle": "Modern Tech Pavilion with Solar Glass Windows",
+        "builtYear": "2016",
+        "groundArea": "1100 sq.m"
+      },
+      "rooms": [
+        {
+          "id": "c-lib",
+          "roomNumber": "C-LIB",
+          "floor": 1,
+          "name": "Central Digital Library",
+          "department": "Library Sciences",
+          "capacity": 150,
+          "facilities": [
+            "E-Journals",
+            "Reading Cabins",
+            "RFID Borrowing",
+            "High-Speed Wi-Fi"
+          ]
+        },
+        {
+          "id": "c-201",
+          "roomNumber": "C-201",
+          "floor": 2,
+          "name": "AI & Machine Learning Lab",
+          "department": "Computer Science",
+          "capacity": 50,
+          "facilities": [
+            "GPU Workstations",
+            "Smart Projector",
+            "Interactive Whiteboard"
+          ]
+        },
+        {
+          "id": "c-203",
+          "roomNumber": "C-203",
+          "floor": 2,
+          "name": "B.Sc (CS) Honors Lecture Room",
+          "department": "Computer Science",
+          "capacity": 60,
+          "facilities": [
+            "Smart Board",
+            "Acoustic Panels"
+          ]
+        },
+        {
+          "id": "c-302",
+          "roomNumber": "C-302",
+          "floor": 3,
+          "name": "Advanced Cloud Computing Lab",
+          "department": "Computer Science",
+          "capacity": 45,
+          "facilities": [
+            "Server Rack",
+            "Dual Monitors",
+            "High Bandwidth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hostel-3",
+      "name": "Hostel 3 — Jagannath",
+      "code": "HST-03",
+      "category": "hostel",
+      "description": "Dedicated residential hall for senior male students named after Lord Jagannath. Features spacious rooms, gym room, TV lounge, and sports courtyard.",
+      "position": [
+        26,
+        0,
+        -22
+      ],
+      "size": [
+        17,
+        11,
+        10
+      ],
+      "height": 12,
+      "floors": 4,
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Hostel Gym",
+        "Table Tennis & Carrom Room",
+        "High-Speed Wi-Fi",
+        "24/7 Security",
+        "Common TV Lounge"
+      ],
+      "accessibility": true,
+      "openingHours": "Hostel Hours: 6:00 AM - 9:30 PM (In-time)",
+      "status": "active"
+    },
+    {
+      "id": "hostel-4",
+      "name": "Hostel 4 — Balabhadra",
+      "code": "HST-04",
+      "category": "hostel",
+      "description": "Modern men's residence named after Lord Balabhadra, providing serene living environment with study lounges and open sky balconies.",
+      "position": [
+        33,
+        0,
+        -38
+      ],
+      "size": [
+        16,
+        11,
+        10
+      ],
+      "height": 12,
+      "floors": 4,
+      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Quiet Study Rooms",
+        "Power Backup",
+        "Water Coolers with UV Filter",
+        "Wardens Office"
+      ],
+      "accessibility": true,
+      "openingHours": "Hostel Hours: 6:00 AM - 9:30 PM",
+      "status": "active"
+    },
+    {
+      "id": "block-d",
+      "name": "Block D (Management & Science)",
+      "code": "BLK-D",
+      "category": "academic",
+      "description": "Multi-disciplinary academic facility for Commerce, Biotechnology, and Professional Management programs with state-of-the-art conference halls.",
+      "position": [
+        68,
+        0,
+        -10
+      ],
+      "size": [
+        18,
+        11,
+        11
+      ],
+      "height": 12,
+      "floors": 4,
+      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Management Conference Suite",
+        "Commerce Computer Lab",
+        "Bio-Science Instrumentation",
+        "Auditorium 2"
+      ],
+      "departments": [
+        "Commerce",
+        "Finance",
+        "Biotechnology",
+        "Management Studies"
+      ],
+      "accessibility": true,
+      "openingHours": "8:00 AM - 6:00 PM",
+      "status": "active"
+    },
+    {
+      "id": "playground",
+      "name": "Playground & Basketball Court",
+      "code": "SPT-COURT",
+      "category": "sports",
+      "description": "Outdoor athletic grounds featuring floodlit concrete basketball court, volleyball pitch, running perimeter, and open field for cricket and football.",
+      "position": [
+        68,
+        0,
+        7
+      ],
+      "size": [
+        16,
+        0.3,
+        14
+      ],
+      "height": 0.5,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Standard Basketball Hoops",
+        "Floodlights for Evening Play",
+        "Volleyball Court",
+        "Spectator Bleachers"
+      ],
+      "accessibility": true,
+      "openingHours": "6:00 AM - 8:30 PM",
+      "status": "active"
+    },
+    {
+      "id": "block-e",
+      "name": "Block E (Seminar & Auditorium Complex)",
+      "code": "BLK-E",
+      "category": "academic",
+      "description": "Grand events and cultural complex with a 500-seat acoustic main auditorium, multi-purpose exhibition gallery, and placement cell.",
+      "position": [
+        78,
+        0,
+        19
+      ],
+      "size": [
+        15,
+        9,
+        12
+      ],
+      "height": 10,
+      "floors": 3,
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "500-Seat Acoustic Auditorium",
+        "Training & Placement Office",
+        "VIP Lounge",
+        "Audio-Visual Control Room"
+      ],
+      "departments": [
+        "Training & Placement",
+        "Student Welfare",
+        "Cultural Affairs"
+      ],
+      "accessibility": true,
+      "openingHours": "8:30 AM - 7:30 PM",
+      "status": "active"
+    },
+    {
+      "id": "back-gate",
+      "name": "Back Gate",
+      "code": "GATE-02",
+      "category": "gate",
+      "description": "Eastern campus gate facilitating logistics, staff vehicle access, and direct connectivity to surrounding educational clusters.",
+      "position": [
+        88,
+        0,
+        -4
+      ],
+      "size": [
+        5,
+        3.5,
+        2
+      ],
+      "height": 3.8,
+      "floors": 1,
+      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Staff Access Card Scanner",
+        "Security Booth",
+        "Delivery Bay"
+      ],
+      "accessibility": true,
+      "openingHours": "6:00 AM - 10:00 PM",
+      "status": "active"
+    },
+    {
+      "id": "hostel-5",
+      "name": "Hostel 5 — Biju Pattanaik",
+      "code": "HST-05",
+      "category": "hostel",
+      "description": "Premium executive hostel block dedicated to legendary leader Biju Pattanaik, offering air-conditioned student suites, guest house accommodation, and indoor sports room.",
+      "position": [
+        82,
+        0,
+        -32
+      ],
+      "size": [
+        17,
+        13,
+        11
+      ],
+      "height": 14,
+      "floors": 5,
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80",
+      "facilities": [
+        "Air-Conditioned Rooms",
+        "Guest Faculty Suites",
+        "High-Speed Wi-Fi",
+        "Gym & Recreation Zone",
+        "Elevator"
+      ],
+      "accessibility": true,
+      "openingHours": "Hostel Hours: 6:00 AM - 9:30 PM",
+      "status": "active"
+    }
+  ],
+  "navNodes": [
+    {
+      "id": "node-main-gate",
+      "name": "Main Gate Entrance",
+      "x": -42,
+      "z": 18,
+      "type": "gate",
+      "accessible": true,
+      "buildingId": "main-gate"
+    },
+    {
+      "id": "node-junc-main-road",
+      "name": "Main Entrance Drive Junction",
+      "x": -35,
+      "z": 15,
+      "type": "junction",
+      "accessible": true
+    },
+    {
+      "id": "node-parking-entry",
+      "name": "Parking Lot Entrance",
+      "x": -34,
+      "z": 4,
+      "type": "landmark",
+      "accessible": true,
+      "buildingId": "parking"
+    },
+    {
+      "id": "node-temple-path",
+      "name": "Temple Avenue Junction",
+      "x": -25,
+      "z": -8,
+      "type": "junction",
+      "accessible": true
+    },
+    {
+      "id": "node-temple-front",
+      "name": "Sai Temple Courtyard",
+      "x": -20,
+      "z": -13,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "sai-temple"
+    },
+    {
+      "id": "node-block-a-lawn",
+      "name": "Block A Ceremonial Lawn Path",
+      "x": -18,
+      "z": 12,
+      "type": "pathway",
+      "accessible": true,
+      "buildingId": "open-park"
+    },
+    {
+      "id": "node-block-a-front",
+      "name": "Block A Main Portico",
+      "x": -6,
+      "z": 9,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "block-a"
+    },
+    {
+      "id": "node-block-a-rear",
+      "name": "Block A North Courtyard",
+      "x": -6,
+      "z": -9,
+      "type": "pathway",
+      "accessible": true
+    },
+    {
+      "id": "node-junc-south-wing",
+      "name": "South Academic Wing Junction",
+      "x": -6,
+      "z": 22,
+      "type": "junction",
+      "accessible": true
+    },
+    {
+      "id": "node-block-b-entry",
+      "name": "Block B Entrance",
+      "x": -1,
+      "z": 24,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "block-b"
+    },
+    {
+      "id": "node-washroom-entry",
+      "name": "Common Washroom Entrance",
+      "x": 11,
+      "z": 26,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "common-washroom"
+    },
+    {
+      "id": "node-hostel-1-entry",
+      "name": "Hostel 1 Arnapurna Entrance",
+      "x": 21,
+      "z": 26,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "hostel-1"
+    },
+    {
+      "id": "node-hostel-2-entry",
+      "name": "Hostel 2 Subhadra Entrance",
+      "x": 37,
+      "z": 25,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "hostel-2"
+    },
+    {
+      "id": "node-nescafe-patio",
+      "name": "Nescafe Patio",
+      "x": 49,
+      "z": 23,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "nescafe"
+    },
+    {
+      "id": "node-canteen-entry",
+      "name": "NIIS Canteen Entrance",
+      "x": 61,
+      "z": 20,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "niis-canteen"
+    },
+    {
+      "id": "node-junc-central",
+      "name": "Central Campus Crossroads",
+      "x": 18,
+      "z": 8,
+      "type": "junction",
+      "accessible": true
+    },
+    {
+      "id": "node-block-c-west",
+      "name": "Block C West Entrance",
+      "x": 38,
+      "z": 4,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "block-c"
+    },
+    {
+      "id": "node-block-c-east",
+      "name": "Block C East Pathway",
+      "x": 55,
+      "z": 4,
+      "type": "pathway",
+      "accessible": true
+    },
+    {
+      "id": "node-junc-north-hostels",
+      "name": "North Hostels Junction",
+      "x": 18,
+      "z": -15,
+      "type": "junction",
+      "accessible": true
+    },
+    {
+      "id": "node-hostel-3-entry",
+      "name": "Hostel 3 Jagannath Entrance",
+      "x": 26,
+      "z": -17,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "hostel-3"
+    },
+    {
+      "id": "node-hostel-4-entry",
+      "name": "Hostel 4 Balabhadra Entrance",
+      "x": 33,
+      "z": -32,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "hostel-4"
+    },
+    {
+      "id": "node-junc-east",
+      "name": "East Academic & Sports Plaza",
+      "x": 58,
+      "z": -2,
+      "type": "junction",
+      "accessible": true
+    },
+    {
+      "id": "node-block-d-entry",
+      "name": "Block D Entrance",
+      "x": 68,
+      "z": -5,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "block-d"
+    },
+    {
+      "id": "node-court-entry",
+      "name": "Sports Court Entrance",
+      "x": 68,
+      "z": 4,
+      "type": "landmark",
+      "accessible": true,
+      "buildingId": "playground"
+    },
+    {
+      "id": "node-block-e-entry",
+      "name": "Block E Auditorium Entrance",
+      "x": 75,
+      "z": 14,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "block-e"
+    },
+    {
+      "id": "node-hostel-5-entry",
+      "name": "Hostel 5 Biju Pattanaik Entrance",
+      "x": 82,
+      "z": -25,
+      "type": "building_entrance",
+      "accessible": true,
+      "buildingId": "hostel-5"
+    },
+    {
+      "id": "node-back-gate",
+      "name": "Back Gate Checkpoint",
+      "x": 88,
+      "z": -4,
+      "type": "gate",
+      "accessible": true,
+      "buildingId": "back-gate"
+    }
+  ],
+  "navEdges": [
+    {
+      "id": "e1",
+      "from": "node-main-gate",
+      "to": "node-junc-main-road",
+      "distance": 45,
+      "accessible": true,
+      "name": "Main Entrance Boulevard"
+    },
+    {
+      "id": "e2",
+      "from": "node-junc-main-road",
+      "to": "node-parking-entry",
+      "distance": 55,
+      "accessible": true,
+      "name": "Parking Access Road"
+    },
+    {
+      "id": "e3",
+      "from": "node-parking-entry",
+      "to": "node-temple-path",
+      "distance": 60,
+      "accessible": true,
+      "name": "Temple Pathway"
+    },
+    {
+      "id": "e4",
+      "from": "node-temple-path",
+      "to": "node-temple-front",
+      "distance": 30,
+      "accessible": true,
+      "name": "Sai Mandir Plaza"
+    },
+    {
+      "id": "e5",
+      "from": "node-junc-main-road",
+      "to": "node-block-a-lawn",
+      "distance": 70,
+      "accessible": true,
+      "name": "Front Garden Promenade"
+    },
+    {
+      "id": "e6",
+      "from": "node-block-a-lawn",
+      "to": "node-block-a-front",
+      "distance": 60,
+      "accessible": true,
+      "name": "Block A Entrance Drive"
+    },
+    {
+      "id": "e7",
+      "from": "node-block-a-front",
+      "to": "node-junc-south-wing",
+      "distance": 55,
+      "accessible": true,
+      "name": "South Wing Concourse"
+    },
+    {
+      "id": "e8",
+      "from": "node-junc-south-wing",
+      "to": "node-block-b-entry",
+      "distance": 35,
+      "accessible": true,
+      "name": "Block B Arcade"
+    },
+    {
+      "id": "e9",
+      "from": "node-block-b-entry",
+      "to": "node-washroom-entry",
+      "distance": 50,
+      "accessible": true,
+      "name": "Facility Walkway"
+    },
+    {
+      "id": "e10",
+      "from": "node-washroom-entry",
+      "to": "node-hostel-1-entry",
+      "distance": 45,
+      "accessible": true,
+      "name": "Girls Hostel Avenue"
+    },
+    {
+      "id": "e11",
+      "from": "node-hostel-1-entry",
+      "to": "node-hostel-2-entry",
+      "distance": 65,
+      "accessible": true,
+      "name": "Subhadra Hall Walk"
+    },
+    {
+      "id": "e12",
+      "from": "node-hostel-2-entry",
+      "to": "node-nescafe-patio",
+      "distance": 50,
+      "accessible": true,
+      "name": "Cafe Promenade"
+    },
+    {
+      "id": "e13",
+      "from": "node-nescafe-patio",
+      "to": "node-canteen-entry",
+      "distance": 55,
+      "accessible": true,
+      "name": "Dining Concourse"
+    },
+    {
+      "id": "e14",
+      "from": "node-block-a-front",
+      "to": "node-junc-central",
+      "distance": 95,
+      "accessible": true,
+      "name": "Central Campus Arterial"
+    },
+    {
+      "id": "e15",
+      "from": "node-junc-central",
+      "to": "node-block-c-west",
+      "distance": 80,
+      "accessible": true,
+      "name": "Block C Tech Plaza"
+    },
+    {
+      "id": "e16",
+      "from": "node-block-a-front",
+      "to": "node-block-a-rear",
+      "distance": 75,
+      "accessible": true,
+      "name": "Block A Passage"
+    },
+    {
+      "id": "e17",
+      "from": "node-block-a-rear",
+      "to": "node-junc-north-hostels",
+      "distance": 95,
+      "accessible": true,
+      "name": "North Hostel Link"
+    },
+    {
+      "id": "e18",
+      "from": "node-junc-north-hostels",
+      "to": "node-hostel-3-entry",
+      "distance": 40,
+      "accessible": true,
+      "name": "Jagannath Hall Walk"
+    },
+    {
+      "id": "e19",
+      "from": "node-hostel-3-entry",
+      "to": "node-hostel-4-entry",
+      "distance": 65,
+      "accessible": true,
+      "name": "Balabhadra Avenue"
+    },
+    {
+      "id": "e20",
+      "from": "node-junc-north-hostels",
+      "to": "node-junc-central",
+      "distance": 95,
+      "accessible": true,
+      "name": "Central North Connector"
+    },
+    {
+      "id": "e21",
+      "from": "node-block-c-west",
+      "to": "node-block-c-east",
+      "distance": 70,
+      "accessible": true,
+      "name": "Library Walkway"
+    },
+    {
+      "id": "e22",
+      "from": "node-block-c-east",
+      "to": "node-junc-east",
+      "distance": 45,
+      "accessible": true,
+      "name": "Science Plaza Link"
+    },
+    {
+      "id": "e23",
+      "from": "node-junc-east",
+      "to": "node-block-d-entry",
+      "distance": 45,
+      "accessible": true,
+      "name": "Block D Concourse"
+    },
+    {
+      "id": "e24",
+      "from": "node-block-c-east",
+      "to": "node-court-entry",
+      "distance": 55,
+      "accessible": true,
+      "name": "Sports Court Way"
+    },
+    {
+      "id": "e25",
+      "from": "node-court-entry",
+      "to": "node-block-e-entry",
+      "distance": 60,
+      "accessible": true,
+      "name": "Auditorium Approach"
+    },
+    {
+      "id": "e26",
+      "from": "node-canteen-entry",
+      "to": "node-block-e-entry",
+      "distance": 75,
+      "accessible": true,
+      "name": "East Ring Road"
+    },
+    {
+      "id": "e27",
+      "from": "node-junc-east",
+      "to": "node-back-gate",
+      "distance": 110,
+      "accessible": true,
+      "name": "Back Gate Ring Drive"
+    },
+    {
+      "id": "e28",
+      "from": "node-junc-east",
+      "to": "node-hostel-5-entry",
+      "distance": 120,
+      "accessible": true,
+      "name": "Biju Pattanaik Avenue"
+    },
+    {
+      "id": "e29",
+      "from": "node-hostel-4-entry",
+      "to": "node-hostel-5-entry",
+      "distance": 130,
+      "accessible": true,
+      "name": "North Perimeter Road"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac-1",
+      "name": "Dr. Subhashree Mohapatra",
+      "designation": "Managing Director & Academic Dean",
+      "department": "Executive Leadership",
+      "category": "leadership",
+      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+      "bio": "Visionary educationist spearheading academic excellence, industry partnerships, and advanced technological infrastructure across NIIS Group of Institutions.",
+      "qualification": "Ph.D. in Computer Science & Management, M.Tech",
+      "specialization": "Artificial Intelligence, Educational Leadership & Strategic Governance",
+      "office": "Block A, First Floor (A-102)",
+      "email": "md.academic@niisgroup.org",
+      "displayOrder": 1,
+      "status": "active"
+    },
+    {
+      "id": "fac-2",
+      "name": "Prof. Rajesh Kumar Mishra",
+      "designation": "Principal & Professor",
+      "department": "Computer Applications",
+      "category": "leadership",
+      "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
+      "bio": "Over 22 years of teaching and institutional mentorship in computer science, algorithms, and distributed systems.",
+      "qualification": "M.Tech (CSE), Ph.D. (Pursuing)",
+      "specialization": "Cloud Computing, Graph Algorithms, Database Engineering",
+      "office": "Block A, Room A-105",
+      "email": "principal@niisgroup.org",
+      "displayOrder": 2,
+      "status": "active"
+    },
+    {
+      "id": "fac-3",
+      "name": "Dr. Ananya Priyadarshini",
+      "designation": "Head of Department & Associate Professor",
+      "department": "BCA & Information Technology",
+      "category": "faculty",
+      "photo": "https://images.unsplash.com/photo-1580894732483-333cfc824c6e?auto=format&fit=crop&w=600&q=80",
+      "bio": "Lead mentor for NIIS Hackathons and IEEE Student Chapter. Recipient of Odisha IT Educator Excellence Award.",
+      "qualification": "Ph.D. in Information Systems, MCA",
+      "specialization": "Machine Learning, Web GIS Systems, Full-Stack Architecture",
+      "office": "Block C, Room C-204",
+      "email": "ananya.cse@niisgroup.org",
+      "displayOrder": 3,
+      "status": "active"
+    },
+    {
+      "id": "fac-4",
+      "name": "Prof. Debabrata Samantaray",
+      "designation": "Associate Professor & Training Head",
+      "department": "Management Studies (MBA/BBA)",
+      "category": "faculty",
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+      "bio": "Industry veteran with 15+ years experience mentoring graduates into leading multinational consulting and tech firms.",
+      "qualification": "MBA (Marketing & Finance), UGC-NET",
+      "specialization": "Corporate Strategy, Consumer Psychology, Fintech",
+      "office": "Block A, Room A-208",
+      "email": "samantaray.mba@niisgroup.org",
+      "displayOrder": 4,
+      "status": "active"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "NIIS Hackathon 2026: TechSprint & Digital Twin Showcase",
+      "description": "Premier inter-college 36-hour hackathon bringing together over 300 developers competing across AI, 3D Spatial WebGL, and Smart Campus IoT tracks.",
+      "category": "Hackathon",
+      "status": "ongoing",
+      "startDate": "2026-09-28",
+      "endDate": "2026-09-30",
+      "startTime": "09:00 AM",
+      "endTime": "08:00 PM",
+      "venue": "Block E (Main Auditorium) & Block C Advanced Labs",
+      "organizer": "NIIS Innovation Council & Computer Science Department",
+      "bannerImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "evt-2",
+      "title": "Utkal Divas & Odisha Cultural Fest 2026",
+      "description": "Annual cultural extravaganza celebrating rich Odia heritage, classical Odissi dance, Sambalpuri folk music, and regional art exhibitions.",
+      "category": "Cultural",
+      "status": "upcoming",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-13",
+      "startTime": "04:30 PM",
+      "endTime": "09:30 PM",
+      "venue": "Open Park & Central Lawn Amphitheater",
+      "organizer": "NIIS Cultural Club & Student Union",
+      "bannerImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "evt-3",
+      "title": "National Workshop on Applied AI & Spatial Computing",
+      "description": "Hands-on masterclass for engineering and computer application students on Gemini LLMs, Three.js 3D graphics, and spatial GIS pipelines.",
+      "category": "Workshop",
+      "status": "upcoming",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "startTime": "10:00 AM",
+      "endTime": "04:00 PM",
+      "venue": "Block C, Central Digital Seminar Hall",
+      "organizer": "Department of Computer Science & MCA",
+      "bannerImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1000&q=80"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Main Academic Block A with Iconic Chhatris",
+      "category": "Campus Architecture",
+      "date": "2026-08-15",
+      "description": "The monumental facade of Block A gleaming during golden hour.",
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "gal-2",
+      "title": "Annual Tech Summit at Block E Auditorium",
+      "category": "Academic Events",
+      "date": "2026-07-20",
+      "description": "Over 500 students gathered for keynote lectures and tech showcases.",
+      "imageUrl": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "gal-3",
+      "title": "Inter-Department Basketball Championship",
+      "category": "Sports",
+      "date": "2026-06-10",
+      "description": "Thrilling moments on the floodlit campus sports court.",
+      "imageUrl": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "gal-4",
+      "title": "Peaceful Sai Mandir Morning Aarti",
+      "category": "Campus Life",
+      "date": "2026-05-02",
+      "description": "Divine morning spiritual beginning at the Sai Temple of NIIS.",
+      "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "coreMembers": [
+    {
+      "id": "core-1",
+      "name": "Satyajit Pattanaik",
+      "role": "Lead 3D & GIS Architect",
+      "department": "BCA 3rd Year",
+      "bio": "Passionate about WebGL, Three.js shaders, and building interactive digital twins for modern institutions.",
+      "photo": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=500&q=80",
+      "socialEmail": "satyajit.p@student.niis.ac.in"
+    },
+    {
+      "id": "core-2",
+      "name": "Swati Sucharita Mohanty",
+      "role": "Full-Stack & AI Integration Lead",
+      "department": "MCA Final Year",
+      "bio": "Architecting intelligent campus assistance systems and high-throughput Node.js microservices.",
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80",
+      "socialEmail": "swati.m@student.niis.ac.in"
+    },
+    {
+      "id": "core-3",
+      "name": "Rohan Ray",
+      "role": "Campus GIS Mapping & Navigation Specialist",
+      "department": "B.Sc (CS)",
+      "bio": "Surveying campus spatial geometry, geodesic routes, and wheelchair accessibility paths.",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80",
+      "socialEmail": "rohan.ray@student.niis.ac.in"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Welcome Hackathon Participants & Visitors!",
+      "description": "Use NIIS GeoNav for instant 3D turn-by-turn guidance to Block E Auditorium and Block C Labs.",
+      "category": "Campus Event",
+      "date": "2026-09-29",
+      "active": true,
+      "urgent": true
+    },
+    {
+      "id": "ann-2",
+      "title": "Extended Library Hours during Mid-Term Evaluations",
+      "description": "Central Digital Library in Block C will remain open until 10:00 PM for registered students.",
+      "category": "General Notice",
+      "date": "2026-09-25",
+      "active": true
+    },
+    {
+      "id": "ann-3",
+      "title": "Campus Shuttle Bus Timing Update",
+      "description": "Evening shuttle departures from Main Gate Parking to Bhubaneswar Station scheduled every 45 mins.",
+      "category": "General Notice",
+      "date": "2026-09-20",
+      "active": true
+    }
+  ],
+  "settings": {
+    "campusName": "NIIS GeoNav",
+    "tagline": "Your Campus. Your Route. Your Way.",
+    "address": "NIIS Campus, Sarada Vihar, Madanpur",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "pincode": "752054",
+    "officialWebsite": "https://niisgroup.org",
+    "phone": "+91 674 2460666",
+    "email": "info@niisgroup.org",
+    "emergencyPhone": "+91 94370 12345",
+    "securityPhone": "+91 674 2460777",
+    "geofence": {
+      "latitude": 20.2197,
+      "longitude": 85.7385,
+      "radiusMeters": 550
+    },
+    "mission": "To empower next-generation professionals through state-of-the-art technical education, holistic personality growth, digital innovation, and ethical leadership deeply grounded in societal service.",
+    "vision": "To emerge as a premier global institution of academic excellence, technological innovation, and sustainable campus living in Eastern India.",
+    "aboutText": "NIIS Group of Institutions at Bhubaneswar, Odisha is a premier seat of learning offering industry-accredited programs in Computer Applications, Management, Biotechnology, and Emerging Technologies across its sprawling green campus."
+  },
+  "users": [
+    {
+      "id": "usr-demo-student",
+      "fullName": "Aman Sharma",
+      "email": "student@niis.ac.in",
+      "passwordHash": "$2b$10$8Omzb4./w5SjXIwjGNJao.ZV1o6UslOYieOB9E5.IMuDPDHNy1cGe",
+      "department": "BCA 3rd Year",
+      "studentId": "NIIS-BCA-2024-042",
+      "profilePic": "",
+      "role": "student",
+      "createdAt": "2026-09-29T16:04:53.629Z"
+    },
+    {
+      "id": "usr-1790697914557",
+      "fullName": "Pooja Das",
+      "email": "pooja@student.niis.ac.in",
+      "passwordHash": "$2b$10$TCoOONvGKnJ9rROI2pH51u7uW0FNh1kwVH9x3G5ww6ltYHAtLEeIe",
+      "department": "BCA 2nd Year",
+      "studentId": "NIIS-4654",
+      "profilePic": "",
+      "role": "student",
+      "createdAt": "2026-09-29T16:05:14.655Z"
+    }
+  ],
+  "savedPlaces": [
+    {
+      "id": "sp-1",
+      "userId": "usr-demo-student",
+      "buildingId": "block-c",
+      "buildingName": "Block C (Computer Science & Library)",
+      "category": "academic",
+      "savedAt": "2026-09-29T16:04:53.630Z"
+    },
+    {
+      "id": "sp-2",
+      "userId": "usr-demo-student",
+      "buildingId": "niis-canteen",
+      "buildingName": "NIIS Canteen & Mess",
+      "category": "dining",
+      "savedAt": "2026-09-29T16:04:53.630Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "hist-1",
+      "userId": "usr-demo-student",
+      "fromName": "Main Gate",
+      "toName": "Block C (Computer Science & Library)",
+      "distance": 280,
+      "estimatedMinutes": 4,
+      "timestamp": "2026-09-29T15:04:53.630Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "NIIS GeoNav — Intelligent 3D Campus Navigation",
+  "short_name": "NIIS GeoNav",
+  "description": "Interactive 3D Digital Twin, turn-by-turn guidance, multi-floor navigation and emergency services for NIIS Campus Bhubaneswar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08070B",
+  "theme_color": "#FF3FA4",
+  "orientation": "portrait",
+  "categories": ["navigation", "education", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
