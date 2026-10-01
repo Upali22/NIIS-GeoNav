@@ -1034,7 +1034,8 @@ export function App() {
               events={events}
               buildings={buildings}
               onNavigateToVenue={(venue) => {
-                const match = buildings.find(b => venue.toLowerCase().includes(b.name.toLowerCase()) || venue.toLowerCase().includes(b.code.toLowerCase()));
+                const safeVenue = String(venue ?? '');
+                const match = buildings.find(b => safeVenue.toLowerCase().includes(String(b.name ?? '').toLowerCase()) || safeVenue.toLowerCase().includes(String(b.code ?? '').toLowerCase()));
                 if (match) {
                   setToBuildingId(match.id);
                   setSelectedRoom(null);

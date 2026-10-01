@@ -103,17 +103,18 @@ export const SmartGlobalSearchModal: React.FC<SmartGlobalSearchModalProps> = ({
 
     // 3. Faculty & Teachers
     faculty.forEach(f => {
-      const bld = buildings.find(b => f.office.toLowerCase().includes(b.name.toLowerCase()) || f.office.toLowerCase().includes(b.code.toLowerCase())) || buildings[0];
+      const office = String(f.office ?? '');
+      const bld = buildings.find(b => office.toLowerCase().includes(String(b.name ?? '').toLowerCase()) || office.toLowerCase().includes(String(b.code ?? '').toLowerCase())) || buildings[0];
       items.push({
         id: `fac-${f.id}`,
         name: f.name,
         category: 'faculty',
         categoryLabel: f.category === 'leadership' ? 'Campus Leadership' : 'Faculty Member',
-        buildingId: bld.id,
-        buildingName: f.office || bld.name,
-        locationDetails: `${f.designation} · ${f.department} · Office: ${f.office}`,
+        buildingId: bld?.id || '',
+        buildingName: office || bld?.name || 'NIIS Campus',
+        locationDetails: `${f.designation ?? ''} · ${f.department ?? ''} · Office: ${office}`, 
         image: f.photo,
-        tags: [f.designation, f.department, f.office, f.qualification, 'teacher', 'professor', 'faculty'],
+        tags: [f.designation, f.department, office, f.qualification, 'teacher', 'professor', 'faculty'].filter(Boolean),
         rawItem: f
       });
     });
@@ -138,17 +139,18 @@ export const SmartGlobalSearchModal: React.FC<SmartGlobalSearchModalProps> = ({
 
     // 5. Events & Programs
     events.forEach(ev => {
-      const bld = buildings.find(b => ev.venue.toLowerCase().includes(b.name.toLowerCase()) || ev.venue.toLowerCase().includes(b.code.toLowerCase())) || buildings.find(b => b.id === 'block-e') || buildings[0];
+      const venue = String(ev.venue ?? '');
+      const bld = buildings.find(b => venue.toLowerCase().includes(String(b.name ?? '').toLowerCase()) || venue.toLowerCase().includes(String(b.code ?? '').toLowerCase())) || buildings.find(b => b.id === 'block-e') || buildings[0];
       items.push({
         id: `ev-${ev.id}`,
         name: ev.title,
         category: 'event',
         categoryLabel: `Event (${ev.category})`,
-        buildingId: bld.id,
-        buildingName: ev.venue,
-        locationDetails: `${ev.startDate} · ${ev.venue} · ${ev.organizer}`,
+        buildingId: bld?.id || '',
+        buildingName: venue || bld?.name || 'NIIS Campus',
+        locationDetails: `${ev.startDate ?? ''} · ${venue} · ${ev.organizer ?? ''}`, 
         image: ev.bannerImage,
-        tags: [ev.category, ev.venue, ev.organizer, 'event', 'program', 'hackathon'],
+        tags: [ev.category, venue, ev.organizer, 'event', 'program', 'hackathon'].filter(Boolean),
         rawItem: ev
       });
     });
