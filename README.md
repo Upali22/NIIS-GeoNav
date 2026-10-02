@@ -10,8 +10,7 @@
 
 [🌐 Live Demo](https://niis-geonav.onrender.com) •
 [💻 GitHub](https://github.com/Upali22/NIIS-GeoNav) •
-[🔗 LinkedIn](https://www.linkedin.com/in/upali-aparajita-patra-52915440b/) •
-[🌐 Portfolio](https://upali22.github.io/upaliportfolio-html/)
+[🔗 LinkedIn](https://www.linkedin.com/in/upali-aparajita-patra-52915440b/) 
 
 </div>
 
@@ -308,44 +307,155 @@ The interface also includes:
 | ![Admin](docs/screenshots/admin.png) | ![Profile](docs/screenshots/profile.png) |
 ---
 ---
-
 # 📂 Project Structure
 
 ```text
 NIIS-GeoNav/
 │
-├── public/
+├── 📁 data/
+│   └── campus_store.json
 │
-├── src/
-│   ├── components/
-│   │   ├── 3d/
-│   │   ├── account/
-│   │   ├── admin/
+├── 📁 docs/
+│   └── 📁 screenshots/
+│       ├── 3d-campus.png
+│       ├── admin.png
+│       ├── ai-assistant.png
+│       ├── announcements.png
+│       ├── campus-arrival.png
+│       ├── navigation.png
+│       └── profile.png
+│
+├── 📁 public/
+│   ├── icon.svg
+│   ├── manifest.webmanifest
+│   └── sw.js
+│
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── 📁 3d/
+│   │   │   ├── CampusDigitalTwin.tsx
+│   │   │   └── CinematicOpening.tsx
+│   │   │
+│   │   ├── 📁 account/
+│   │   │   ├── StudentAuthModal.tsx
+│   │   │   └── StudentProfileView.tsx
+│   │   │
+│   │   ├── 📁 admin/
+│   │   │   ├── AdminAnnouncementsSection.tsx
+│   │   │   ├── AdminBuildingSection.tsx
+│   │   │   ├── AdminCoreMembersSection.tsx
+│   │   │   ├── AdminEventsSection.tsx
+│   │   │   ├── AdminGallerySection.tsx
+│   │   │   ├── AdminPortal.tsx
+│   │   │   └── AdminRoutesSection.tsx
+│   │   │
 │   │   └── ...
 │   │
-│   ├── services/
-│   ├── data/
-│   ├── App.tsx
-│   └── ...
-│
-├── docs/
-│   ├── screenshots/
-│   │   ├── campus-arrival.png
-│   │   ├── 3d-campus.png
-│   │   ├── navigation.png
-│   │   ├── ai-assistant.png
-│   │   ├── admin.png
-│   │   └── profile.png
+│   ├── 📁 services/
+│   │   └── campusPersistence.ts
 │   │
-│   ├── architecture.png
-│   └── demo.gif
+│   └── App.tsx
 │
-├── server.ts
-├── package.json
-├── README.md
-├── .gitignore
-└── ...
+├── 📄 .env.example
+├── 📄 .gitignore
+├── 📄 README.md
+├── 📄 bun.lock
+├── 📄 index.html
+├── 📄 metadata.json
+├── 📄 package.json
+├── 📄 server.ts
+├── 📄 tsconfig.json
+└── 📄 vite.config.ts
 ```
+
+## 📁 Directory & File Description
+
+### `data/`
+Contains the structured campus information used by the application.
+
+- `campus_store.json` — stores campus-related data used by the navigation and application features.
+
+### `docs/screenshots/`
+Contains screenshots used to showcase the project in the GitHub README.
+
+- `campus-arrival.png` — Campus Arrival experience
+- `3d-campus.png` — 3D campus visualization
+- `navigation.png` — Navigation interface
+- `ai-assistant.png` — AI Assistant interface
+- `profile.png` — Student profile
+- `admin.png` — Admin portal
+- `announcements.png` — Announcement management
+
+### `public/`
+Contains static assets and web application files.
+
+- `icon.svg` — Application icon
+- `manifest.webmanifest` — Web application manifest
+- `sw.js` — Service worker
+
+### `src/components/3d/`
+Contains the components responsible for the 3D campus experience.
+
+- `CampusDigitalTwin.tsx` — Interactive 3D campus environment
+- `CinematicOpening.tsx` — Campus Arrival cinematic experience
+
+### `src/components/account/`
+Contains student account and profile components.
+
+- `StudentAuthModal.tsx` — Student authentication interface
+- `StudentProfileView.tsx` — Student profile interface
+
+### `src/components/admin/`
+Contains the administrative management interface.
+
+- `AdminPortal.tsx` — Main administration interface
+- `AdminAnnouncementsSection.tsx` — Announcement management
+- `AdminBuildingSection.tsx` — Building management
+- `AdminCoreMembersSection.tsx` — Core member/faculty management
+- `AdminEventsSection.tsx` — Event management
+- `AdminGallerySection.tsx` — Gallery management
+- `AdminRoutesSection.tsx` — Route management
+
+### `src/services/`
+Contains application services responsible for data-related functionality.
+
+- `campusPersistence.ts` — Handles persistent campus data management.
+
+### `App.tsx`
+Main React application component that connects the application's major interfaces and functionality.
+
+### `server.ts`
+Server-side entry point used by the project.
+
+### `package.json`
+Contains project metadata, dependencies and npm scripts.
+
+### `vite.config.ts`
+Vite configuration for the project.
+
+### `tsconfig.json`
+TypeScript configuration.
+
+### `.env.example`
+Example environment configuration without exposing private credentials.
+
+### `.gitignore`
+Specifies files and folders that should not be committed to Git.
+
+### `README.md`
+Project documentation and GitHub presentation.
+
+### `metadata.json`
+Project metadata used by the application.
+
+### `index.html`
+Main HTML entry point for the Vite application.
+
+### `bun.lock`
+Dependency lock file generated for Bun.
+
+
+
 
 ---
 
