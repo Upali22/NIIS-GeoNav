@@ -1,268 +1,353 @@
-# 🧭 NIIS GeoNav — Smart Campus Navigation System
+# 🧭 NIIS GeoNav
 
 <div align="center">
 
-### Intelligent • Interactive • Accessible • Context-Aware
+### Smart 3D Campus Navigation System
 
-**A smart 3D campus navigation platform designed for NIIS Institute of Information Science & Management**
+**An intelligent, interactive and context-aware navigation platform designed for NIIS Institute of Information Science & Management.**
 
-[🌐 Live Demo](https://niis-geonav.onrender.com)
+<br>
+
+[🌐 Live Demo](https://niis-geonav.onrender.com) •
+[💻 GitHub](https://github.com/Upali22/NIIS-GeoNav) •
+[🔗 LinkedIn](https://www.linkedin.com/in/upali-aparajita-patra-52915440b/) •
+[🌐 Portfolio](https://upali22.github.io/upaliportfolio-html/)
 
 </div>
 
 ---
 
-## 📌 About the Project
+## 📌 Overview
 
-**NIIS GeoNav** is an intelligent campus navigation system developed specifically for **NIIS Institute of Information Science & Management**.
+**NIIS GeoNav** is a smart campus navigation platform developed for **NIIS Institute of Information Science & Management**.
 
-The platform helps students, faculty, staff, and visitors explore the campus, locate buildings and facilities, and find suitable routes between locations through an interactive digital campus environment.
+The system provides an interactive digital representation of the campus where students, faculty, staff and visitors can discover locations, calculate routes and explore campus facilities through a modern 3D interface.
 
-Instead of relying on a conventional 2D map, NIIS GeoNav combines **3D campus visualization, intelligent route calculation, interactive navigation, AI assistance, and an administrative management system** into a single platform.
-
----
-
-## ✨ Key Features
-
-### 🗺️ Smart Campus Navigation
-- Interactive campus map
-- Search for buildings and facilities
-- Distance calculation between locations
-- Route visualization
-- Shortest-path navigation
-- Campus-wide location directory
-
-### 🧠 Intelligent Route Finding
-NIIS GeoNav uses the **A\* (A-Star) pathfinding algorithm** to determine efficient routes between campus locations.
-
-The algorithm considers:
-- Starting location
-- Destination
-- Available paths
-- Distance between connected locations
-- Estimated remaining distance
-
-This allows the system to calculate an efficient route through the campus navigation graph.
-
-### 🏫 3D Campus Visualization
-The campus is represented through an interactive **3D digital environment**, allowing users to explore campus structures and locations in a more immersive way.
-
-### 🚀 Campus Arrival Experience
-When users enter the platform, they can experience a cinematic location journey that transitions through:
-
-**Earth → India → Odisha → Bhubaneswar → NIIS Campus**
-
-The experience provides geographical context before entering the campus navigation interface.
-
-### 🤖 NIIS GeoNav AI Assistant
-An integrated AI assistant helps users interact with the campus navigation system and obtain information about campus locations and facilities.
-
-### 👤 Student Account System
-The platform provides student-oriented account functionality including:
-- Registration
-- Login
-- Student profile
-- Account information
-
-### 👨‍💼 Admin Portal
-Administrators can manage campus information through a dedicated administration interface.
-
-Management features include:
-- 📢 Announcements
-- 👨‍🏫 Core Members / Faculty information
-- 🖼️ Event Gallery
-- 🏢 Buildings and 3D campus information
-- 🛣️ Routes
-- 📅 Events
-- 📚 Program-related information
-
-### 💾 Persistent Data Management
-The system is designed to retain administrative changes so that managed campus information remains available after refreshing or reopening the application.
-
-### 📱 Responsive Design
-The interface is designed to work across:
-- 💻 Desktop
-- 📱 Mobile
-- 🖥️ Different screen sizes
-
-### 🌗 Theme Support
-The interface supports both:
-- Dark Mode
-- Light Mode
+The platform combines **3D visualization, graph-based navigation, A* pathfinding, AI-assisted interaction, student accounts and administrative data management** into a single campus navigation system.
 
 ---
 
-## 🏫 Campus Locations
+## 🎯 Problem Statement
 
-NIIS GeoNav includes important campus locations such as:
+Navigating a large educational campus can be difficult for new students, visitors, parents and other users who are unfamiliar with the campus layout.
 
-- Main Gate
-- Parking
-- Sai Temple of NIIS
-- Block A
-- Open Park
-- Block B
-- Common Washroom
-- Hostel 1 — Arnapurna
-- Hostel 2 — Subhadra
-- Nescafe
-- NIIS Canteen
-- Block C
-- Hostel 3 — Jagannath
-- Hostel 4 — Balabhadra
-- Block D
-- Playground
-- Block E
-- Back Gate
-- Hostel 5 — Biju Pattanaik
+Traditional maps may not provide enough campus-specific information or an immersive understanding of the environment.
+
+**NIIS GeoNav addresses this problem by providing:**
+
+- Interactive campus visualization
+- Location-based search
+- Distance information
+- Intelligent route calculation
+- Campus facility information
+- AI-assisted assistance
+- Administrative campus management
 
 ---
 
-## 🧠 Algorithm
+# ✨ Key Features
 
-### A* Pathfinding Algorithm
+## 🗺️ Smart Campus Navigation
 
-NIIS GeoNav models the campus as a **navigation graph**, where:
+- Search campus buildings and facilities
+- Select starting and destination locations
+- Calculate route distance
+- Display navigation paths
+- Find efficient routes between campus locations
+- Explore important campus facilities
 
-- **Nodes** represent campus locations.
-- **Edges** represent navigable paths between locations.
-- **Edge weights** represent the distance or cost of travelling between locations.
+---
 
-A* evaluates possible paths using:
+## 🧠 A* Pathfinding
 
-**f(n) = g(n) + h(n)**
+NIIS GeoNav uses the **A\* (A-Star) pathfinding algorithm** for route calculation.
+
+The campus navigation network is represented as a graph where:
+
+- **Nodes** represent campus locations
+- **Edges** represent connected paths
+- **Weights** represent travel distance/cost
+
+The algorithm evaluates possible routes using:
+
+```text
+f(n) = g(n) + h(n)
+```
 
 Where:
 
-- `g(n)` = cost from the starting point to the current node
-- `h(n)` = estimated cost from the current node to the destination
-- `f(n)` = total estimated cost
+```text
+g(n) → Cost from the starting location
+h(n) → Estimated cost to the destination
+f(n) → Total estimated cost
+```
 
-The algorithm explores promising paths and determines an efficient route to the selected destination.
+This allows the system to efficiently search through the campus route network and identify an appropriate route between locations.
 
 ---
 
-## 🛠️ Technology Stack
+# 🏫 3D Campus Visualization
 
-### Frontend
-- React
-- TypeScript / JavaScript
-- HTML5
-- CSS3
-- Vite
+The platform provides an interactive **3D representation of the NIIS campus**.
 
-### 3D & Visualization
+Users can explore the digital campus environment and interact with campus structures through the navigation interface.
+
+The 3D environment is built using:
+
 - Three.js
 - React Three Fiber
 - React Three Drei
 
-### Animation
-- Framer Motion
-
-### UI & Icons
-- Lucide React
-- Responsive CSS
-- Glassmorphism-based interface
-
-### Backend
-- Node.js
-- Server-side API architecture
-
-### Data Management
-- Persistent campus data storage
-- Structured campus location and route data
-
-### Development Tools
-- Git
-- GitHub
-- Visual Studio Code
-- npm
-
 ---
 
-## 🏗️ System Architecture
+# 🚀 Campus Arrival Experience
+
+NIIS GeoNav includes a cinematic campus introduction that establishes the geographical context of the institution.
+
+The experience transitions through:
 
 ```text
-                    ┌─────────────────────┐
-                    │      User           │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   NIIS GeoNav UI    │
-                    │   React + Vite      │
-                    └──────────┬──────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              │                │                │
-              ▼                ▼                ▼
-       ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-       │ 3D Campus   │  │ Navigation  │  │ AI Assistant│
-       │ Visualization│  │  Engine     │  │             │
-       └─────────────┘  └──────┬──────┘  └─────────────┘
-                                │
-                                ▼
-                       ┌─────────────────┐
-                       │ A* Pathfinding  │
-                       │    Algorithm    │
-                       └────────┬────────┘
-                                │
-                                ▼
-                       ┌─────────────────┐
-                       │ Campus Data &   │
-                       │ Route Network   │
-                       └────────┬────────┘
-                                │
-                                ▼
-                       ┌─────────────────┐
-                       │ Admin / Data    │
-                       │ Management      │
-                       └─────────────────┘
+🌍 Earth
+   ↓
+🇮🇳 India
+   ↓
+📍 Odisha
+   ↓
+🏙️ Bhubaneswar
+   ↓
+🏫 NIIS Campus
+```
+
+This creates an interactive introduction before users enter the main campus navigation environment.
+
+---
+
+# 🤖 NIIS GeoNav AI Assistant
+
+The platform includes an AI-assisted campus interaction interface designed to help users obtain information and interact with the navigation system.
+
+The assistant can be used as an additional interface for discovering campus-related information.
+
+---
+
+# 👤 Student Account System
+
+NIIS GeoNav includes student-oriented account functionality.
+
+### Features
+
+- Student registration
+- Login
+- Profile information
+- Account interface
+- Student-specific interaction
+
+---
+
+# 👨‍💼 Admin Portal
+
+The administrative interface provides management functionality for campus information.
+
+Administrators can manage:
+
+- 📢 Announcements
+- 👨‍🏫 Core Members / Faculty
+- 🖼️ Event Gallery
+- 📅 Events
+- 🏢 Buildings
+- 🧭 Routes
+- 🏫 3D Campus information
+- 📚 Program-related information
+
+The administrative system allows campus information to be updated without modifying the main navigation interface manually.
+
+---
+
+# 💾 Persistent Data Management
+
+The application includes persistent campus data management so that important administrative changes can remain available after refreshing or reopening the application.
+
+This allows information such as campus content, announcements, faculty information and other managed data to be maintained more reliably than temporary UI state.
+
+---
+
+# 📍 Campus Locations
+
+The current campus navigation system includes important locations such as:
+
+| Category | Locations |
+|---|---|
+| 🚪 Entrance | Main Gate, Back Gate |
+| 🏢 Academic | Block A, Block B, Block C, Block D, Block E |
+| 🏠 Hostel | Arnapurna, Subhadra, Jagannath, Balabhadra, Biju Pattanaik |
+| 🍴 Food | Nescafe, NIIS Canteen |
+| 🌳 Recreation | Open Park, Playground |
+| 🛕 Religious | Sai Temple of NIIS |
+| 🚻 Facility | Common Washroom |
+| 🚗 Transport | Parking |
+
+---
+
+# ⚙️ How NIIS GeoNav Works
+
+```text
+              USER
+                │
+                ▼
+        ┌───────────────┐
+        │  NIIS GeoNav  │
+        │   Interface   │
+        └───────┬───────┘
+                │
+       ┌────────┼────────┐
+       │        │        │
+       ▼        ▼        ▼
+     Search    3D       AI
+    Location  Campus  Assistant
+       │
+       ▼
+ Campus Navigation Graph
+       │
+       ▼
+   A* Pathfinding
+       │
+       ▼
+ Route Calculation
+       │
+       ▼
+ Distance + Route
+       │
+       ▼
+ Navigation Display
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🏗️ System Architecture
 
-### Prerequisites
-
-Make sure you have installed:
-
-- [Node.js](https://nodejs.org/)
-- npm
-- Git
-
-### Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Upali22/NIIS-GeoNav.git
+```text
+┌───────────────────────────────────────────┐
+│                  USER                     │
+└─────────────────────┬─────────────────────┘
+                      │
+                      ▼
+┌───────────────────────────────────────────┐
+│              React Frontend               │
+│                                           │
+│  Navigation │ 3D Campus │ AI │ Accounts  │
+└─────────────────────┬─────────────────────┘
+                      │
+          ┌───────────┼───────────┐
+          │           │           │
+          ▼           ▼           ▼
+       Campus       Route       Admin
+       Data         Engine      Portal
+                      │
+                      ▼
+                A* Algorithm
+                      │
+                      ▼
+              Navigation Graph
+                      │
+                      ▼
+              Route & Distance
 ```
-
-Navigate to the project:
-
-```bash
-cd NIIS-GeoNav
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-The application will then be available through the local development URL provided by Vite.
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| **React** | Frontend interface |
+| **TypeScript / JavaScript** | Application logic |
+| **Vite** | Development and build tooling |
+| **Three.js** | 3D visualization |
+| **React Three Fiber** | React-based 3D rendering |
+| **React Three Drei** | 3D utilities and components |
+| **Framer Motion** | Animations and transitions |
+| **Lucide React** | Interface icons |
+| **Node.js** | Server-side functionality |
+| **A\* Algorithm** | Route/path calculation |
+| **Git & GitHub** | Version control and source management |
+
+---
+
+# 📱 Responsive Interface
+
+NIIS GeoNav is designed to adapt to different screen sizes.
+
+Supported interfaces include:
+
+- 💻 Desktop
+- 📱 Mobile
+- 🖥️ Large displays
+
+The interface also includes:
+
+- 🌙 Dark Mode
+- ☀️ Light Mode
+- Responsive navigation
+- Interactive controls
+- Animated UI elements
+
+---
+
+# 📸 Screenshots
+
+> Add your project screenshots inside `docs/screenshots/`.
+
+### 🏠 Landing / Campus Arrival
+
+![Campus Arrival](docs/screenshots/campus-arrival.png)
+
+### 🏫 3D Campus
+
+![3D Campus](docs/screenshots/3d-campus.png)
+
+### 🧭 Navigation
+
+![Navigation](docs/screenshots/navigation.png)
+
+### 🤖 AI Assistant
+
+![AI Assistant](docs/screenshots/ai-assistant.png)
+
+### 👨‍💼 Admin Portal
+
+![Admin Portal](docs/screenshots/admin.png)
+
+### 👤 Student Profile
+
+![Student Profile](docs/screenshots/profile.png)
+
+---
+
+# 🎥 Project Demo
+
+A short demonstration video can be added here to showcase the complete navigation workflow.
+
+**Demo flow:**
+
+```text
+Campus Arrival
+      ↓
+Explore 3D Campus
+      ↓
+Search Location
+      ↓
+Select Destination
+      ↓
+Calculate Route
+      ↓
+Display Distance
+      ↓
+Navigate Campus
+```
+
+---
+
+# 📂 Project Structure
 
 ```text
 NIIS-GeoNav/
@@ -277,79 +362,212 @@ NIIS-GeoNav/
 │   │   └── ...
 │   │
 │   ├── services/
+│   ├── data/
 │   ├── App.tsx
 │   └── ...
 │
-├── data/
+├── docs/
+│   ├── screenshots/
+│   │   ├── campus-arrival.png
+│   │   ├── 3d-campus.png
+│   │   ├── navigation.png
+│   │   ├── ai-assistant.png
+│   │   ├── admin.png
+│   │   └── profile.png
+│   │
+│   ├── architecture.png
+│   └── demo.gif
+│
 ├── server.ts
 ├── package.json
 ├── README.md
+├── .gitignore
 └── ...
 ```
 
 ---
 
-## 🎯 Problem Addressed
+# 🚀 Getting Started
 
-Large educational campuses can be difficult to navigate, particularly for:
+## Prerequisites
 
-- New students
-- Visitors
-- Parents
-- Faculty and staff
-- Users unfamiliar with the campus layout
+Make sure the following are installed:
 
-Traditional maps may not provide enough campus-specific context.
+- Node.js
+- npm
+- Git
 
-**NIIS GeoNav** addresses this problem by providing an interactive digital campus environment with intelligent route discovery and location-based information.
+## Clone the Repository
+
+```bash
+git clone https://github.com/Upali22/NIIS-GeoNav.git
+```
+
+## Navigate to the Project
+
+```bash
+cd NIIS-GeoNav
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Start Development Server
+
+```bash
+npm run dev
+```
+
+The development server will provide a local URL where the application can be accessed.
 
 ---
 
-## 💡 Why NIIS GeoNav?
+# 🔐 Environment Configuration
 
-The system combines several capabilities into one platform:
+If environment variables are required, create a local environment file based on the project's environment configuration.
 
-**3D Campus + Smart Navigation + A* Pathfinding + AI Assistance + Campus Information + Admin Management**
+**Never commit private API keys, passwords or credentials to GitHub.**
 
-This creates a centralized digital navigation experience for the NIIS campus.
+Example:
+
+```env
+API_KEY=your_api_key_here
+```
+
+Add private environment files such as:
+
+```text
+.env
+.env.local
+```
+
+to `.gitignore`.
 
 ---
 
-## 🔮 Future Scope
+# 🧪 Testing & Validation
 
-Potential future enhancements include:
+The project was tested across key user workflows including:
 
-- 📍 Real-time user positioning
+- Campus loading
+- 3D visualization
+- Location search
+- Route calculation
+- Distance display
+- Student account interface
+- Admin functionality
+- Data persistence
+- Responsive layouts
+- Dark and light themes
+
+---
+
+# ⚠️ Current Limitations
+
+The current implementation has several areas that can be expanded in future versions:
+
+- Real-time GPS positioning is not currently implemented.
+- Indoor positioning is not currently available.
+- Navigation accuracy depends on the available campus route data.
+- Large-scale concurrent usage would require additional infrastructure and backend scaling.
+- Real-world navigation conditions such as temporary road closures are not yet dynamically incorporated.
+
+---
+
+# 🔮 Future Scope
+
+Potential future improvements include:
+
+- 📍 Real-time GPS positioning
 - 🧭 Indoor navigation
-- ♿ Advanced accessibility-aware routing
+- ♿ Accessibility-aware route selection
 - 🚶 Walking-time estimation
-- 📡 Live campus updates
-- 📱 Progressive Web App support
-- 🔔 Event-based navigation notifications
-- 🗺️ Expanded campus mapping
+- 🎙️ Voice-guided navigation
+- 📡 Real-time campus updates
+- 🔔 Event-based notifications
 - 📊 Navigation analytics
-- 🎙️ Voice-based navigation
+- 📱 Progressive Web App support
 - 🌐 Multi-campus support
+- 🛰️ Improved real-world map integration
 
 ---
 
-## 🌐 Live Project
+# 💡 Technical Highlights
 
-**NIIS GeoNav**
-
-🔗 https://niis-geonav.onrender.com
+- Graph-based campus navigation
+- A* pathfinding implementation
+- Interactive 3D campus visualization
+- React component-based architecture
+- Responsive UI design
+- Student authentication interface
+- Administrative management system
+- Persistent campus data management
+- Animated user experience
+- Modular component structure
+- Campus-specific navigation data
 
 ---
-## 👩‍💻 Developer
 
-**Upali Aparajita Patra**
+# 🧩 Challenges & Solutions
 
-NIIS GeoNav is an independently developed smart campus navigation project created to explore 3D visualization, intelligent navigation, pathfinding algorithms, AI-assisted interaction, and campus information management.
+### Challenge — Campus Navigation
 
-🔗 **GitHub:** [Upali22](https://github.com/Upali22)  
-🔗 **LinkedIn:** [Upali Aparajita Patra](https://www.linkedin.com/in/upali-aparajita-patra-52915440b/)  
+**Problem:**  
+A conventional map does not provide enough campus-specific context.
+
+**Solution:**  
+A dedicated campus navigation graph was created to represent important locations and their connections.
+
+### Challenge — Route Calculation
+
+**Problem:**  
+Users need an efficient route between two campus locations.
+
+**Solution:**  
+The A* pathfinding algorithm evaluates the navigation graph and calculates an efficient route.
+
+### Challenge — 3D Campus Experience
+
+**Problem:**  
+A standard 2D interface provides limited spatial understanding.
+
+**Solution:**  
+An interactive 3D campus environment was developed using Three.js and React Three Fiber.
+
+### Challenge — Persistent Information
+
+**Problem:**  
+Administrative changes should remain available after refreshing the application.
+
+**Solution:**  
+Persistent campus data management was incorporated into the application architecture.
+
 ---
 
-## 📄 License
+# 🌐 Live Application
+
+### NIIS GeoNav
+
+🔗 **https://niis-geonav.onrender.com**
+
+---
+
+# 👩‍💻 Developer
+
+### Upali Aparajita Patra
+
+NIIS GeoNav is an independently developed smart campus navigation project focused on exploring **3D visualization, intelligent navigation, pathfinding algorithms, AI-assisted interaction, responsive interfaces and campus information management**.
+
+**Connect with me:**
+
+- 💻 [GitHub](https://github.com/Upali22)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/upali-aparajita-patra-52915440b/)
+  
+---
+
+# 📄 License
 
 This project is developed for educational and demonstration purposes.
