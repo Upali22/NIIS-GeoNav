@@ -293,58 +293,20 @@ The interface also includes:
 
 ---
 
-# 📸 Screenshots
+## 📸 Project Preview
 
-> Add your project screenshots inside `docs/screenshots/`.
+| Campus Arrival | 3D Campus |
+|---|---|
+| ![Campus Arrival](docs/screenshots/campus-arrival.png) | ![3D Campus](docs/screenshots/3d-campus.png) |
 
-### 🏠 Landing / Campus Arrival
+| Navigation | AI Assistant |
+|---|---|
+| ![Navigation](docs/screenshots/navigation.png) | ![AI Assistant](docs/screenshots/ai-assistant.png) |
 
-![Campus Arrival](docs/screenshots/campus-arrival.png)
-
-### 🏫 3D Campus
-
-![3D Campus](docs/screenshots/3d-campus.png)
-
-### 🧭 Navigation
-
-![Navigation](docs/screenshots/navigation.png)
-
-### 🤖 AI Assistant
-
-![AI Assistant](docs/screenshots/ai-assistant.png)
-
-### 👨‍💼 Admin Portal
-
-![Admin Portal](docs/screenshots/admin.png)
-
-### 👤 Student Profile
-
-![Student Profile](docs/screenshots/profile.png)
-
+| Admin Portal | Student Profile |
+|---|---|
+| ![Admin](docs/screenshots/admin.png) | ![Profile](docs/screenshots/profile.png) |
 ---
-
-# 🎥 Project Demo
-
-A short demonstration video can be added here to showcase the complete navigation workflow.
-
-**Demo flow:**
-
-```text
-Campus Arrival
-      ↓
-Explore 3D Campus
-      ↓
-Search Location
-      ↓
-Select Destination
-      ↓
-Calculate Route
-      ↓
-Display Distance
-      ↓
-Navigate Campus
-```
-
 ---
 
 # 📂 Project Structure
