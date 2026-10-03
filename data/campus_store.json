@@ -18,7 +18,7 @@
       ],
       "height": 4.5,
       "floors": 1,
-      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
+      "image": "data:image/jpeg;base64,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",
       "facilities": [
         "Security Cabin",
         "Visitor Registration",
@@ -51,7 +51,7 @@
       ],
       "height": 1,
       "floors": 1,
-      "image": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=800&q=80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDISqOdAYlf84Yg-hXus3epWpkIFeGiWDus32Dni5ccA&s=10",
       "facilities": [
         "Bus Terminal",
         "Two Wheeler Shed",
@@ -80,7 +80,7 @@
       ],
       "height": 9,
       "floors": 1,
-      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWjxHxJIgq-oEecZia1hCZZwveV4Jpez8hKovLAddqw&s=10",
       "facilities": [
         "Prayer Hall",
         "Meditation Garden",
@@ -114,7 +114,7 @@
       ],
       "height": 15,
       "floors": 5,
-      "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHJM45couo-bTabx3FYg_411k68r1oDs1U5dSl-C8DA&s=10",
       "facilities": [
         "Central Administration",
         "Director & Principal Office",
@@ -128,8 +128,8 @@
         "Administration",
         "MCA",
         "MBA",
-        "BBA",
-        "Computer Science"
+        "BBA - BPUT",
+        "BCA - BPUT"
       ],
       "accessibility": true,
       "openingHours": "8:00 AM - 7:00 PM",
@@ -211,7 +211,7 @@
       ],
       "height": 0.5,
       "floors": 1,
-      "image": "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?auto=format&fit=crop&w=800&q=80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmG7QikZD3hom5DM9nbg3zw5DIMT6pjPKFVI-uXzy6vBV4SqVugGEsnrg&s=10",
       "facilities": [
         "Floral Walkways",
         "Shaded Gazebos",
@@ -240,18 +240,17 @@
       ],
       "height": 11,
       "floors": 4,
-      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+      "image": "https://cache.careers360.mobi/media/schools/social-media/media-gallery/24636/2020/3/21/NIIS%20Higher%20Secondary%20School-Entrance.jpg",
       "facilities": [
-        "BCA Classrooms",
-        "Hardware & Networking Lab",
+        "Classrooms",
+        "Libray",
         "Faculty Cubicles",
         "Tutorial Rooms",
         "Water Dispensers"
       ],
       "departments": [
-        "BCA",
-        "Information Technology",
-        "Applied Sciences"
+        "+2 Science",
+        "+2 Commerce"
       ],
       "accessibility": true,
       "openingHours": "8:00 AM - 6:00 PM",
@@ -261,8 +260,8 @@
           "id": "b-101",
           "roomNumber": "B-101",
           "floor": 1,
-          "name": "BCA Foundation Hall",
-          "department": "BCA",
+          "name": "Foundation Hall",
+          "department": "+2 Science",
           "capacity": 70,
           "facilities": [
             "Interactive Smart Board",
@@ -273,8 +272,8 @@
           "id": "b-204",
           "roomNumber": "B-204",
           "floor": 2,
-          "name": "Software Engineering Studio",
-          "department": "BCA",
+          "name": "Library",
+          "department": "",
           "capacity": 60,
           "facilities": [
             "Projector",
@@ -286,11 +285,10 @@
           "id": "b-302",
           "roomNumber": "B-302",
           "floor": 3,
-          "name": "Data Structures Lab",
-          "department": "BCA",
+          "name": "Classroom",
+          "department": "Commerce",
           "capacity": 55,
           "facilities": [
-            "Linux Terminals",
             "Smart Screen"
           ]
         }
@@ -314,7 +312,7 @@
       ],
       "height": 3.5,
       "floors": 1,
-      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "Male & Female Restrooms",
         "Accessible Toilet",
@@ -342,8 +340,8 @@
         9
       ],
       "height": 12,
-      "floors": 4,
-      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80",
+      "floors": 3,
+      "image": "https://content.jdmagicbox.com/comp/bhubaneshwar/dc/0674px674.x674.100528170108.e9g2dc/catalogue/niis-institute-of-information-science-and-management-madanpur-bhubaneshwar-mba-institutes-etiyubq00c-250.jpg",
       "facilities": [
         "Biometric Access Control",
         "24/7 Security & Female Warden",
@@ -374,7 +372,7 @@
       ],
       "height": 12,
       "floors": 4,
-      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "image": "https://cache.careers360.mobi/media/schools/social-media/media-gallery/24636/2020/3/21/NIIS%20Higher%20Secondary%20School-Hostel.jpg",
       "facilities": [
         "Recreation Room",
         "Badminton Court Court",
@@ -433,7 +431,7 @@
       ],
       "height": 7,
       "floors": 2,
-      "image": "https://images.unsplash.com/photo-1567521464027-f127ff144326?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "400+ Seating Capacity",
         "Vegetarian & Non-Veg Counters",
@@ -463,7 +461,7 @@
       ],
       "height": 11,
       "floors": 3,
-      "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=800&q=80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Zb_2oVRQCuZWblFWW2eyDyT-7XIb7p-W9aN7VLtpcw&s=10",
       "facilities": [
         "Central Digital Library",
         "AI & Machine Learning Lab",
@@ -474,10 +472,12 @@
         "4 Advanced Labs"
       ],
       "departments": [
-        "BCA",
-        "B.Sc Computer Science",
-        "Data Science",
-        "Library Sciences"
+        "B.sc Physics",
+        "B.Sc Chemistry",
+        "B.sc Maths",
+        "B.sc Biotech",
+        "B.sc Botany",
+        "B.sc Zoology"
       ],
       "accessibility": true,
       "openingHours": "8:00 AM - 8:00 PM (Library until 9:00 PM)",
@@ -560,7 +560,7 @@
       ],
       "height": 12,
       "floors": 4,
-      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "Hostel Gym",
         "Table Tennis & Carrom Room",
@@ -590,7 +590,7 @@
       ],
       "height": 12,
       "floors": 4,
-      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "Quiet Study Rooms",
         "Power Backup",
@@ -619,7 +619,7 @@
       ],
       "height": 12,
       "floors": 4,
-      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "Management Conference Suite",
         "Commerce Computer Lab",
@@ -627,10 +627,10 @@
         "Auditorium 2"
       ],
       "departments": [
-        "Commerce",
-        "Finance",
-        "Biotechnology",
-        "Management Studies"
+        "BCA",
+        "BBA",
+        "B.sc ITM",
+        "B.sc CS"
       ],
       "accessibility": true,
       "openingHours": "8:00 AM - 6:00 PM",
@@ -683,7 +683,7 @@
       ],
       "height": 10,
       "floors": 3,
-      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "500-Seat Acoustic Auditorium",
         "Training & Placement Office",
@@ -717,7 +717,7 @@
       ],
       "height": 3.8,
       "floors": 1,
-      "image": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "Staff Access Card Scanner",
         "Security Booth",
@@ -745,7 +745,7 @@
       ],
       "height": 14,
       "floors": 5,
-      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=80",
+      "image": "",
       "facilities": [
         "Air-Conditioned Rooms",
         "Guest Faculty Suites",
@@ -1232,31 +1232,31 @@
   "faculty": [
     {
       "id": "fac-1",
-      "name": "Dr. Subhashree Mohapatra",
-      "designation": "Managing Director & Academic Dean",
+      "name": "Dr. Subhash Chandra Nayak",
+      "designation": "Chairman",
       "department": "Executive Leadership",
       "category": "leadership",
-      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzoFgzzPoXJaUpu0_vXlUIeTbSnNNthpGLGq7IfhoWQ&s=10",
       "bio": "Visionary educationist spearheading academic excellence, industry partnerships, and advanced technological infrastructure across NIIS Group of Institutions.",
-      "qualification": "Ph.D. in Computer Science & Management, M.Tech",
-      "specialization": "Artificial Intelligence, Educational Leadership & Strategic Governance",
+      "qualification": "",
+      "specialization": "",
       "office": "Block A, First Floor (A-102)",
-      "email": "md.academic@niisgroup.org",
+      "email": "niisgroup.org",
       "displayOrder": 1,
       "status": "active"
     },
     {
       "id": "fac-2",
-      "name": "Prof. Rajesh Kumar Mishra",
-      "designation": "Principal & Professor",
-      "department": "Computer Applications",
+      "name": "Dr. Smrutisudha Nayak",
+      "designation": "Managing Director",
+      "department": "Executive Leadership",
       "category": "leadership",
-      "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
-      "bio": "Over 22 years of teaching and institutional mentorship in computer science, algorithms, and distributed systems.",
-      "qualification": "M.Tech (CSE), Ph.D. (Pursuing)",
-      "specialization": "Cloud Computing, Graph Algorithms, Database Engineering",
+      "photo": "https://niisgroup.org/static/media/trustee2.bdc730fa7ab69169ba18.png",
+      "bio": "",
+      "qualification": "",
+      "specialization": "",
       "office": "Block A, Room A-105",
-      "email": "principal@niisgroup.org",
+      "email": "niisgroup.org",
       "displayOrder": 2,
       "status": "active"
     },
@@ -1338,19 +1338,19 @@
   "gallery": [
     {
       "id": "gal-1",
-      "title": "Main Academic Block A with Iconic Chhatris",
+      "title": "A Seminar Going On At Block A Conference Hall",
       "category": "Campus Architecture",
       "date": "2026-08-15",
       "description": "The monumental facade of Block A gleaming during golden hour.",
-      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80"
+      "imageUrl": "https://www.collegebatch.com/static/clg-gallery/niis-institute-of-business-administration-bhubaneswar-365621.webp"
     },
     {
       "id": "gal-2",
-      "title": "Annual Tech Summit at Block E Auditorium",
+      "title": "NIIS DreamFest 2k26",
       "category": "Academic Events",
       "date": "2026-07-20",
-      "description": "Over 500 students gathered for keynote lectures and tech showcases.",
-      "imageUrl": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=800&q=80"
+      "description": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzbrEmSDBnt2WeoBqdekw8u8RdPhGiDg_AQbfmSozmv7zhbyWYap8sO8I&s=10"
     },
     {
       "id": "gal-3",
@@ -1366,18 +1366,18 @@
       "category": "Campus Life",
       "date": "2026-05-02",
       "description": "Divine morning spiritual beginning at the Sai Temple of NIIS.",
-      "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF-eSrE56AW_aoCKXhuZwnuR--2TCRZ5ABUhqCICHAArzzp56EI6JPeSYx&s=10"
     }
   ],
   "coreMembers": [
     {
       "id": "core-1",
-      "name": "Satyajit Pattanaik",
-      "role": "Lead 3D & GIS Architect",
-      "department": "BCA 3rd Year",
+      "name": "NIIS E-Cell & CULTURAL",
+      "role": "",
+      "department": "NIIS CLUB",
       "bio": "Passionate about WebGL, Three.js shaders, and building interactive digital twins for modern institutions.",
-      "photo": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=500&q=80",
-      "socialEmail": "satyajit.p@student.niis.ac.in"
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpGw6MMgMHb1lU8KYZGI-RaJbAwFaLDspfk-fTVrwIOg&s=10",
+      "socialEmail": "student.niis.ac.in"
     },
     {
       "id": "core-2",
@@ -1386,7 +1386,7 @@
       "department": "MCA Final Year",
       "bio": "Architecting intelligent campus assistance systems and high-throughput Node.js microservices.",
       "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80",
-      "socialEmail": "swati.m@student.niis.ac.in"
+      "socialEmail": "student.niis.ac.in"
     },
     {
       "id": "core-3",
